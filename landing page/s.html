@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success Stories</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(180deg, #6A0DAD, #A52AEB);
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            padding: 50px 20px;
+        }
+        header {
+            background: #4B0082;
+            padding: 10px 0;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .logo {
+            font-weight: bold;
+            font-size: 24px;
+        }
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .success-stories {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .story {
+            background-color: #fff;
+            color: #000;
+            border-radius: 15px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .story img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .btn {
+            margin-top: 20px;
+            background-color: #FF69B4;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #FF1493;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">APPS WITHOUT CODE</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="bootcamp.html">Bootcamp</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><button class="apply-btn">APPLY</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Success Stories</h1>
+        <div class="success-stories">
+            <div class="story">
+                <img src="s1.webp" alt="Success Story 1">
+                <h3>Jane's Journey</h3>
+                <p>Jane built a powerful budgeting app that now has over 50k downloads!</p>
+            </div>
+            <div class="story">
+                <img src="s2.png" alt="Success Story 2">
+                <h3>Mark's Masterpiece</h3>
+                <p>Mark created a fitness app that gained global recognition in just 6 months.</p>
+            </div>
+            <div class="story">
+                <img src="s3.jpeg" alt="Success Story 3">
+                <h3>Lisa's Learning Hub</h3>
+                <p>Lisa designed an online learning platform that now empowers thousands of students.</p>
+            </div>
+        </div>
+        <button class="btn">Start Your Journey</button>
+    </div>
+</body>
+</html>

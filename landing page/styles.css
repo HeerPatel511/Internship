@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(to right, #4c4cff, #a64dff);
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+nav .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.apply-btn {
+    background: #ff57a6;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-top: 50px;
+}
+
+.get-started {
+    background: #ff57a6;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.business-section {
+    display: flex;
+    padding: 50px;
+    background-color: #f7f7f7;
+    gap: 40px;
+    align-items: center;
+}
+
+.content {
+    flex: 1;
+}
+
+.images {
+    display: flex;
+    gap: 15px;
+}
+
+.images img {
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.walk-through {
+    background: #8c52ff;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
